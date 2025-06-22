@@ -157,7 +157,7 @@ def pregunta_01():
     * Su código debe crear la carpeta `docs` si no existe.
 
     """
-    ruta = "files/docs"
+    ruta = "docs"
     if not os.path.exists(ruta):
         os.makedirs(ruta)
     df=load_data()
